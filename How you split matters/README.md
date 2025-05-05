@@ -1,4 +1,4 @@
-This repository contains the code for paper [Attackers Are Not the Same! Unveiling the Impact of Feature Distribution on Label Inference Attacks](https://ieeexplore.ieee.org/document/10752967) published in IEEE Transactions on Information Forensics and Security (TIFS).
+
 
 # Requirements
 
@@ -181,17 +181,4 @@ The main file and program entry. Use it to load dataset, model, attacker, and to
     | CIFAR-10/100 | Conv4-FC2 (`--simple`) and ResNet |
     | Criteo | DeepFM |
 
-# Citation
 
-If you use our code in your research, please cite our work：
-
-```latex
-@article{liu2025attackers,
-  author  = {Liu, Yige and Wang, Che and Lou, Yiwei and Cao, Yongzhi and Wang, Hanpin},
-  journal = {IEEE Transactions on Information Forensics and Security},
-  title   = {Attackers Are Not the Same! Unveiling the Impact of Feature Distribution on Label Inference Attacks},
-  volume  = {20},
-  pages   = {71-86},
-  year    = {2025},
-}
-```
